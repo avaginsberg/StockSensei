@@ -1,0 +1,25 @@
+"/Users/scholar/Documents/stockexample/Stockdo/Model/DailyAdjusted.swift":
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjusted.swiftdeps"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjusted.dia"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjusted.o"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjusted.d"
+"/Users/scholar/Documents/stockexample/Stockdo/Model/APIModel/DailyStock.swift":
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyStock.d"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyStock.dia"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyStock.swiftdeps"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyStock.o"
+"/Users/scholar/Documents/stockexample/Stockdo/ViewModel/SettingHeader.swift":
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingHeader.o"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingHeader.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingHeader.d"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingHeader.dia"
+"/Users/scholar/Documents/stockexample/Stockdo/Extensions/String+Extension.swift":
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/String+Extension.o"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/String+Extension.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/String+Extension.d"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/String+Extension.dia"
+"/Users/scholar/Documents/stockexample/Stockdo/Model/APIModel/IntradayStock.swift":
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntradayStock.d"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntradayStock.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntradayStock.dia"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntradayStock.swiftdeps"

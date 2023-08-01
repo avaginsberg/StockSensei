@@ -1,0 +1,20 @@
+"/Users/scholar/Documents/stockexample/Stockdo/Utility/InteractiveModalPresentationController.swift":
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/InteractiveModalPresentationController.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/InteractiveModalPresentationController.dia"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/InteractiveModalPresentationController.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/InteractiveModalPresentationController.d"
+"/Users/scholar/Documents/stockexample/Stockdo/View/UIComponent/CustomTextField.swift":
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/CustomTextField.dia"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/CustomTextField.o"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/CustomTextField.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/CustomTextField.d"
+"/Users/scholar/Documents/stockexample/Stockdo/Model/Intraday.swift":
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Intraday.swiftdeps"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Intraday.o"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Intraday.d"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Intraday.dia"
+"/Users/scholar/Documents/stockexample/Stockdo/Service/KeyChainService/KeyChainStore.swift":
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStore.o"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStore.d"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStore.swiftdeps"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStore.dia"

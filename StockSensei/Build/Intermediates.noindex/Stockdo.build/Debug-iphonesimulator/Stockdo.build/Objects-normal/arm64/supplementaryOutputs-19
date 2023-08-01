@@ -1,0 +1,25 @@
+"/Users/scholar/Documents/stockexample/Stockdo/Extensions/UIView+Constraints.swift":
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/UIView+Constraints.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/UIView+Constraints.d"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/UIView+Constraints.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/UIView+Constraints.dia"
+"/Users/scholar/Documents/stockexample/Stockdo/Service/KeyChainService/KeyChainStoreError.swift":
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStoreError.dia"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStoreError.o"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStoreError.d"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/KeyChainStoreError.swiftdeps"
+"/Users/scholar/Documents/stockexample/Stockdo/Protocols/Builder.swift":
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Builder.swiftdeps"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Builder.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Builder.dia"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/Builder.d"
+"/Users/scholar/Documents/stockexample/Stockdo/ViewModel/DailyAdjustedMain.swift":
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedMain.d"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedMain.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedMain.dia"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedMain.swiftdeps"
+"/Users/scholar/Documents/stockexample/Stockdo/ViewModel/DailyAdjustedViewModel.swift":
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedViewModel.d"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedViewModel.swiftdeps"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedViewModel.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedViewModel.dia"

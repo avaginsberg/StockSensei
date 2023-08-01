@@ -1,0 +1,25 @@
+"/Users/scholar/Documents/stockexample/Stockdo/Protocols/JumpToController.swift":
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/JumpToController.d"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/JumpToController.dia"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/JumpToController.swiftdeps"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/JumpToController.o"
+"/Users/scholar/Documents/stockexample/Stockdo/View/TableCell/DailyAdjustedCell.swift":
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedCell.d"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedCell.swiftdeps"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedCell.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/DailyAdjustedCell.dia"
+"/Users/scholar/Documents/stockexample/Stockdo/Controller/TabBarViewController.swift":
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/TabBarViewController.swiftdeps"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/TabBarViewController.dia"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/TabBarViewController.o"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/TabBarViewController.d"
+"/Users/scholar/Documents/stockexample/Stockdo/Controller/SettingViewController.swift":
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingViewController.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingViewController.d"
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingViewController.o"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/SettingViewController.dia"
+"/Users/scholar/Documents/stockexample/Stockdo/View/UIComponent/IntervalPickerView.swift":
+  object: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntervalPickerView.o"
+  swift-dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntervalPickerView.swiftdeps"
+  dependencies: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntervalPickerView.d"
+  diagnostics: "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex/Stockdo.build/Debug-iphonesimulator/Stockdo.build/Objects-normal/arm64/IntervalPickerView.dia"

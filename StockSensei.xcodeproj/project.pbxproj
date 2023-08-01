@@ -11,6 +11,10 @@
 		BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EA12A795FB9003B3DAF /* ContentView.swift */; };
 		BD463EA42A795FBA003B3DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD463EA32A795FBA003B3DAF /* Assets.xcassets */; };
 		BD463EA72A795FBA003B3DAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD463EA62A795FBA003B3DAF /* Preview Assets.xcassets */; };
+		BD463EB02A79979E003B3DAF /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EAF2A79979E003B3DAF /* login.swift */; };
+		BD463EB22A79991B003B3DAF /* learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB12A79991B003B3DAF /* learn.swift */; };
+		BD463EB42A79999A003B3DAF /* Funds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB32A79999A003B3DAF /* Funds.swift */; };
+		BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB52A7999E6003B3DAF /* Invest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BD463EA12A795FB9003B3DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD463EA32A795FBA003B3DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD463EA62A795FBA003B3DAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD463EAF2A79979E003B3DAF /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		BD463EB12A79991B003B3DAF /* learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn.swift; sourceTree = "<group>"; };
+		BD463EB32A79999A003B3DAF /* Funds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funds.swift; sourceTree = "<group>"; };
+		BD463EB52A7999E6003B3DAF /* Invest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,10 @@
 		BD463E932A795FB9003B3DAF = {
 			isa = PBXGroup;
 			children = (
+				BD463EB52A7999E6003B3DAF /* Invest.swift */,
+				BD463EB32A79999A003B3DAF /* Funds.swift */,
+				BD463EB12A79991B003B3DAF /* learn.swift */,
+				BD463EAF2A79979E003B3DAF /* login.swift */,
 				BD463E9E2A795FB9003B3DAF /* StockSensei */,
 				BD463E9D2A795FB9003B3DAF /* Products */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
+				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
+				BD463EB02A79979E003B3DAF /* login.swift in Sources */,
 				BD463EA02A795FB9003B3DAF /* StockSenseiApp.swift in Sources */,
+				BD463EB42A79999A003B3DAF /* Funds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

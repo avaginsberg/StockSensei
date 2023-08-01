@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "f480faed1b9449b0460f9f861e036fa656e666b9d3586f7fab42a0871a003b7d"
+    },
+    {
+      "guid" : "f480faed1b9449b0460f9f861e036fa691e6aad8b55c6b2b30d132a899a2b699"
+    },
+    {
+      "guid" : "f480faed1b9449b0460f9f861e036fa6d7a107688640ed8ed28df247d52632b5"
+    }
+  ],
+  "containerPath" : "/Users/scholar/Documents/stockexample/Stockdo.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Stockdo-fyamfhzblstbgubzdvtrretjuonp/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Stockdo-fyamfhzblstbgubzdvtrretjuonp/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/scholar/Desktop/StockSensei/StockSensei",
+      "indexDataStoreFolderPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Stockdo-fyamfhzblstbgubzdvtrretjuonp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Stockdo-fyamfhzblstbgubzdvtrretjuonp/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Build/Products",
+      "pchPath" : "/Users/scholar/Desktop/StockSensei/StockSensei/Stockdo-fyamfhzblstbgubzdvtrretjuonp/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

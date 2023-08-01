@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>10217E4A-DFB1-4450-A7AE-2C65B0EE0E79</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>10217E4A-DFB1-4450-A7AE-2C65B0EE0E79.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Stockdo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Stockdo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Stockdo</string>
+			<key>timeStartedRecording</key>
+			<real>712609796.44758105</real>
+			<key>timeStoppedRecording</key>
+			<real>712609797.44235098</real>
+			<key>title</key>
+			<string>Build Stockdo</string>
+			<key>uniqueIdentifier</key>
+			<string>10217E4A-DFB1-4450-A7AE-2C65B0EE0E79</string>
+		</dict>
+		<key>48F68C6C-4BA8-4BC2-96BC-6D3E1A1C6160</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>48F68C6C-4BA8-4BC2-96BC-6D3E1A1C6160.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Stockdo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Stockdo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Stockdo</string>
+			<key>timeStartedRecording</key>
+			<real>712610156.27089095</real>
+			<key>timeStoppedRecording</key>
+			<real>712610156.80717802</real>
+			<key>title</key>
+			<string>Build Stockdo</string>
+			<key>uniqueIdentifier</key>
+			<string>48F68C6C-4BA8-4BC2-96BC-6D3E1A1C6160</string>
+		</dict>
+		<key>53010E8E-8EBC-4A23-A989-75419AF4C470</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>53010E8E-8EBC-4A23-A989-75419AF4C470.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Stockdo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Stockdo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Stockdo</string>
+			<key>timeStartedRecording</key>
+			<real>712610025.11828303</real>
+			<key>timeStoppedRecording</key>
+			<real>712610033.53355098</real>
+			<key>title</key>
+			<string>Build Stockdo</string>
+			<key>uniqueIdentifier</key>
+			<string>53010E8E-8EBC-4A23-A989-75419AF4C470</string>
+		</dict>
+		<key>A857E32B-5B12-41E6-9E4A-699C37A32101</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A857E32B-5B12-41E6-9E4A-699C37A32101.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Stockdo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Stockdo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Stockdo</string>
+			<key>timeStartedRecording</key>
+			<real>712610996.690323</real>
+			<key>timeStoppedRecording</key>
+			<real>712610997.96788204</real>
+			<key>title</key>
+			<string>Build Stockdo</string>
+			<key>uniqueIdentifier</key>
+			<string>A857E32B-5B12-41E6-9E4A-699C37A32101</string>
+		</dict>
+		<key>C85FB190-8EBC-4ED0-83EB-D06C65849DC9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C85FB190-8EBC-4ED0-83EB-D06C65849DC9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Stockdo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Stockdo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Stockdo</string>
+			<key>timeStartedRecording</key>
+			<real>712598235.68371606</real>
+			<key>timeStoppedRecording</key>
+			<real>712598249.068591</real>
+			<key>title</key>
+			<string>Build Stockdo</string>
+			<key>uniqueIdentifier</key>
+			<string>C85FB190-8EBC-4ED0-83EB-D06C65849DC9</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

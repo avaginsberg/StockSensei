@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Stockdo in Stockdo, no dependencies
+Stockdo in Stockdo, no dependencies
+StockdoTests in Stockdo, depends on:
+Stockdo in Stockdo (explicit)
+StockdoTests in Stockdo, depends on:
+Stockdo in Stockdo (explicit)
+StockdoTests in Stockdo, no dependencies
+StockdoUITests in Stockdo, depends on:
+Stockdo in Stockdo (explicit)
+StockdoUITests in Stockdo, depends on:
+Stockdo in Stockdo (explicit)
+StockdoUITests in Stockdo, no dependencies
