@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Binding var name:String
-    @State var OwnAmzn:Bool = false
+    @State var OwnAmzn = false
     var body: some View{
         NavigationStack{
             VStack(){

@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
-@Binding var OwnAmzn:Bool
+
+
 struct AMZN: View {
+    @Binding var OwnAmzn = false
     var body: some View {
         Button("Buy") {
           OwnAmzn = true
@@ -17,6 +19,6 @@ struct AMZN: View {
 
 struct AMZN_Previews: PreviewProvider {
     static var previews: some View {
-        AMZN()
+        AMZN(OwnAmzn:false)
     }
 }
