@@ -24,8 +24,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })//aapl nav link close
+                            
+                        })//aapl nav link close
                     NavigationLink(
                         destination: BA(),label: {
                             Text("BA")
@@ -34,8 +34,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })// BA nav link close
+                            
+                        })// BA nav link close
                     NavigationLink(
                         destination: AMZN(),label: {
                             Text("AMZN")
@@ -44,7 +44,7 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-                    })//AMZN nav link close
+                        })//AMZN nav link close
                 }//hstack close
                 HStack{
                     NavigationLink(
@@ -55,8 +55,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })//META nav link close
+                            
+                        })//META nav link close
                     NavigationLink(
                         destination: MSFT(),label: {
                             Text("MSFT")
@@ -65,8 +65,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })// MSFT nav link close
+                            
+                        })// MSFT nav link close
                     NavigationLink(
                         destination: GOOG(),label: {
                             Text("GOOG")
@@ -75,8 +75,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })//GOOG nav link close
+                            
+                        })//GOOG nav link close
                 }//hstack 2 close
                 HStack{
                     NavigationLink(
@@ -87,8 +87,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })//META nav link close
+                            
+                        })//META nav link close
                     NavigationLink(
                         destination: UNH(),label: {
                             Text("UNH")
@@ -97,8 +97,8 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })// MSFT nav link close
+                            
+                        })// MSFT nav link close
                     NavigationLink(
                         destination: XOM(),label: {
                             Text("XOM")
@@ -107,10 +107,11 @@ struct Invest: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.green)
                                 .cornerRadius(10)
-
-                    })//GOOG nav link close
+                            
+                        })//GOOG nav link close
                 }
             }//vstack close
+            
         }//nav stack close
     }//some view close
 }//struct close

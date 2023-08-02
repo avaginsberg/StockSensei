@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var name:String
+    @State var OwnAmzn:Bool = false
     var body: some View{
         NavigationStack{
             VStack(){
@@ -26,7 +28,7 @@ struct ContentView: View {
                         Text("Learn")
                         
                     }//navlink closing
-                    NavigationLink(destination:Funds()){
+                    NavigationLink(destination:Funds(name:$name)){
                         Text("Funds")
                     }//navlink closing funds
                     NavigationLink(destination:Invest()){
@@ -44,6 +46,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(name:.constant("ava"), OwnAmzn:false)
     }
 }

@@ -24,6 +24,7 @@
 		BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4882A7AD43D00736240 /* TSLA.swift */; };
 		BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48A2A7AD45000736240 /* UNH.swift */; };
 		BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48C2A7AD46200736240 /* XOM.swift */; };
+		BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4902A7AE97B00736240 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		BDCAD4882A7AD43D00736240 /* TSLA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLA.swift; sourceTree = "<group>"; };
 		BDCAD48A2A7AD45000736240 /* UNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNH.swift; sourceTree = "<group>"; };
 		BDCAD48C2A7AD46200736240 /* XOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOM.swift; sourceTree = "<group>"; };
+		BDCAD4902A7AE97B00736240 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +63,8 @@
 		BD463E932A795FB9003B3DAF = {
 			isa = PBXGroup;
 			children = (
-				BD463EB52A7999E6003B3DAF /* Invest.swift */,
-				BDCAD4882A7AD43D00736240 /* TSLA.swift */,
-				BDCAD48A2A7AD45000736240 /* UNH.swift */,
-				BDCAD48C2A7AD46200736240 /* XOM.swift */,
-				BDCAD4822A7AD2E600736240 /* META.swift */,
-				BDCAD4842A7AD2F000736240 /* MSFT.swift */,
-				BDCAD4862A7AD2F900736240 /* GOOG.swift */,
-				BD463EB32A79999A003B3DAF /* Funds.swift */,
-				BDCAD47C2A7ACF6500736240 /* AAPL.swift */,
-				BDCAD47E2A7ACFE700736240 /* BA.swift */,
-				BDCAD4802A7ACFFB00736240 /* AMZN.swift */,
-				BD463EB12A79991B003B3DAF /* learn.swift */,
-				BD463EAF2A79979E003B3DAF /* login.swift */,
+				BDCAD48F2A7AD72D00736240 /* main pages */,
+				BDCAD48E2A7AD6D300736240 /* Stocks */,
 				BD463E9E2A795FB9003B3DAF /* StockSensei */,
 				BD463E9D2A795FB9003B3DAF /* Products */,
 			);
@@ -91,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				BD463E9F2A795FB9003B3DAF /* StockSenseiApp.swift */,
-				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
 				BD463EA32A795FBA003B3DAF /* Assets.xcassets */,
 				BD463EA52A795FBA003B3DAF /* Preview Content */,
 			);
@@ -104,6 +94,35 @@
 				BD463EA62A795FBA003B3DAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDCAD48E2A7AD6D300736240 /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				BDCAD4802A7ACFFB00736240 /* AMZN.swift */,
+				BDCAD4902A7AE97B00736240 /* Persistence.swift */,
+				BDCAD4842A7AD2F000736240 /* MSFT.swift */,
+				BDCAD4882A7AD43D00736240 /* TSLA.swift */,
+				BDCAD48A2A7AD45000736240 /* UNH.swift */,
+				BDCAD48C2A7AD46200736240 /* XOM.swift */,
+				BDCAD4822A7AD2E600736240 /* META.swift */,
+				BDCAD47C2A7ACF6500736240 /* AAPL.swift */,
+				BDCAD4862A7AD2F900736240 /* GOOG.swift */,
+				BDCAD47E2A7ACFE700736240 /* BA.swift */,
+			);
+			path = Stocks;
+			sourceTree = "<group>";
+		};
+		BDCAD48F2A7AD72D00736240 /* main pages */ = {
+			isa = PBXGroup;
+			children = (
+				BD463EB12A79991B003B3DAF /* learn.swift */,
+				BD463EB52A7999E6003B3DAF /* Invest.swift */,
+				BD463EB32A79999A003B3DAF /* Funds.swift */,
+				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
+				BD463EAF2A79979E003B3DAF /* login.swift */,
+			);
+			path = "main pages";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
+				BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */,
 				BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */,
 				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
