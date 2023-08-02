@@ -13,25 +13,33 @@ struct login: View {
     let salaries = ["N/A", "$40,000", "$60,000", "$80,000", "$100,000", "$120,000+"]
     var body: some View {
         ZStack{
-            Color(red: 0.678, green: 0.847, blue: 0.902)
+            Color(red: 0.827, green: 0.827, blue: 0.827)
                 .ignoresSafeArea()
 
             VStack{
                 Text("Login")
+                    .font(.largeTitle)
+                    .padding(.top, 15.0)
                 HStack{
                     Text("Name:")
-                        .padding(.leading)
+                        .font(.title2)
+                        .padding(.leading, 80.0)
+                    
                     TextField("Your name here", text: $name)
                     
                 }//hstack closing
-                Picker("Select a paint salary", selection: $selection) {
-                    ForEach(salaries, id: \.self) {
-                        Text($0)
-                    }
-                }
-                .pickerStyle(.menu)
-                
+                HStack{
+                    Text("Select your salary")
+                        .font(.title2)
+                    Picker("Select a paint salary", selection: $selection) {
+                        ForEach(salaries, id: \.self) {
+                            Text($0)
+                        }//for each closing
+                    }//picker closing
+                    .pickerStyle(.menu)
+                }//hstack 2 closing
                 Text("Selected salary: \(selection)")
+                    .font(.title2)
             }//Vstack closing
         }//Zstack closing
     }//some view closing

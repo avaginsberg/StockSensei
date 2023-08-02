@@ -20,7 +20,7 @@ struct ContentView: View {
                     NavigationLink(destination: login(name:"")) {
                         Text("Login")
                             .foregroundColor(Color.black)
-                    
+                        
                     }//navlink closing
                     NavigationLink(destination:learn()){
                         Text("Learn")
@@ -35,7 +35,10 @@ struct ContentView: View {
                 }//hstack closing
                 
             }//vstack closing
-        } //zstack closing
+            .navigationTitle("🏠")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(false)
+        } //navstack closing
     }//view closing
 }//struct closing
 

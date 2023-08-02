@@ -15,6 +15,15 @@
 		BD463EB22A79991B003B3DAF /* learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB12A79991B003B3DAF /* learn.swift */; };
 		BD463EB42A79999A003B3DAF /* Funds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB32A79999A003B3DAF /* Funds.swift */; };
 		BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB52A7999E6003B3DAF /* Invest.swift */; };
+		BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD47C2A7ACF6500736240 /* AAPL.swift */; };
+		BDCAD47F2A7ACFE700736240 /* BA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD47E2A7ACFE700736240 /* BA.swift */; };
+		BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4802A7ACFFB00736240 /* AMZN.swift */; };
+		BDCAD4832A7AD2E600736240 /* META.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4822A7AD2E600736240 /* META.swift */; };
+		BDCAD4852A7AD2F000736240 /* MSFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4842A7AD2F000736240 /* MSFT.swift */; };
+		BDCAD4872A7AD2F900736240 /* GOOG.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4862A7AD2F900736240 /* GOOG.swift */; };
+		BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4882A7AD43D00736240 /* TSLA.swift */; };
+		BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48A2A7AD45000736240 /* UNH.swift */; };
+		BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48C2A7AD46200736240 /* XOM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,15 @@
 		BD463EB12A79991B003B3DAF /* learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn.swift; sourceTree = "<group>"; };
 		BD463EB32A79999A003B3DAF /* Funds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funds.swift; sourceTree = "<group>"; };
 		BD463EB52A7999E6003B3DAF /* Invest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest.swift; sourceTree = "<group>"; };
+		BDCAD47C2A7ACF6500736240 /* AAPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAPL.swift; sourceTree = "<group>"; };
+		BDCAD47E2A7ACFE700736240 /* BA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BA.swift; sourceTree = "<group>"; };
+		BDCAD4802A7ACFFB00736240 /* AMZN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMZN.swift; sourceTree = "<group>"; };
+		BDCAD4822A7AD2E600736240 /* META.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = META.swift; sourceTree = "<group>"; };
+		BDCAD4842A7AD2F000736240 /* MSFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFT.swift; sourceTree = "<group>"; };
+		BDCAD4862A7AD2F900736240 /* GOOG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOOG.swift; sourceTree = "<group>"; };
+		BDCAD4882A7AD43D00736240 /* TSLA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLA.swift; sourceTree = "<group>"; };
+		BDCAD48A2A7AD45000736240 /* UNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNH.swift; sourceTree = "<group>"; };
+		BDCAD48C2A7AD46200736240 /* XOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +62,16 @@
 			isa = PBXGroup;
 			children = (
 				BD463EB52A7999E6003B3DAF /* Invest.swift */,
+				BDCAD4882A7AD43D00736240 /* TSLA.swift */,
+				BDCAD48A2A7AD45000736240 /* UNH.swift */,
+				BDCAD48C2A7AD46200736240 /* XOM.swift */,
+				BDCAD4822A7AD2E600736240 /* META.swift */,
+				BDCAD4842A7AD2F000736240 /* MSFT.swift */,
+				BDCAD4862A7AD2F900736240 /* GOOG.swift */,
 				BD463EB32A79999A003B3DAF /* Funds.swift */,
+				BDCAD47C2A7ACF6500736240 /* AAPL.swift */,
+				BDCAD47E2A7ACFE700736240 /* BA.swift */,
+				BDCAD4802A7ACFFB00736240 /* AMZN.swift */,
 				BD463EB12A79991B003B3DAF /* learn.swift */,
 				BD463EAF2A79979E003B3DAF /* login.swift */,
 				BD463E9E2A795FB9003B3DAF /* StockSensei */,
@@ -150,10 +177,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
+				BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */,
 				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
+				BDCAD4832A7AD2E600736240 /* META.swift in Sources */,
 				BD463EB02A79979E003B3DAF /* login.swift in Sources */,
+				BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */,
+				BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */,
 				BD463EA02A795FB9003B3DAF /* StockSenseiApp.swift in Sources */,
+				BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */,
+				BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */,
+				BDCAD4852A7AD2F000736240 /* MSFT.swift in Sources */,
+				BDCAD4872A7AD2F900736240 /* GOOG.swift in Sources */,
+				BDCAD47F2A7ACFE700736240 /* BA.swift in Sources */,
 				BD463EB42A79999A003B3DAF /* Funds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
