@@ -17,7 +17,7 @@ struct ContentView: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                 HStack(){
-                    NavigationLink(destination: login()) {
+                    NavigationLink(destination: login(name:"")) {
                         Text("Login")
                             .foregroundColor(Color.black)
                     
