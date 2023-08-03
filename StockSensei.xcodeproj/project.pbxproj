@@ -18,7 +18,9 @@
 		BD463EB22A79991B003B3DAF /* learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB12A79991B003B3DAF /* learn.swift */; };
 		BD463EB42A79999A003B3DAF /* Funds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB32A79999A003B3DAF /* Funds.swift */; };
 		BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB52A7999E6003B3DAF /* Invest.swift */; };
-		BD734CFA2A7C27630047B3AC /* appleValue-main.zip in Resources */ = {isa = PBXBuildFile; fileRef = BD734CF92A7C27630047B3AC /* appleValue-main.zip */; };
+		BD734CFE2A7C288E0047B3AC /* appleValue-main in Resources */ = {isa = PBXBuildFile; fileRef = BD734CFD2A7C288E0047B3AC /* appleValue-main */; };
+		BD734D022A7C29B20047B3AC /* blah.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD734D012A7C29B20047B3AC /* blah.swift */; };
+		BD734D052A7C2A4C0047B3AC /* StockSensei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD734D032A7C2A4C0047B3AC /* StockSensei.xcdatamodeld */; };
 		BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD47C2A7ACF6500736240 /* AAPL.swift */; };
 		BDCAD47F2A7ACFE700736240 /* BA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD47E2A7ACFE700736240 /* BA.swift */; };
 		BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4802A7ACFFB00736240 /* AMZN.swift */; };
@@ -29,7 +31,6 @@
 		BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48A2A7AD45000736240 /* UNH.swift */; };
 		BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48C2A7AD46200736240 /* XOM.swift */; };
 		BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4902A7AE97B00736240 /* Persistence.swift */; };
-		BDCAD49A2A7BEE9D00736240 /* StockSensei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4982A7BEE9D00736240 /* StockSensei.xcdatamodeld */; };
 		BDCAD4A02A7BF25E00736240 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +47,9 @@
 		BD463EB12A79991B003B3DAF /* learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn.swift; sourceTree = "<group>"; };
 		BD463EB32A79999A003B3DAF /* Funds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funds.swift; sourceTree = "<group>"; };
 		BD463EB52A7999E6003B3DAF /* Invest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest.swift; sourceTree = "<group>"; };
-		BD734CF92A7C27630047B3AC /* appleValue-main.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "appleValue-main.zip"; path = "../../../Downloads/appleValue-main.zip"; sourceTree = "<group>"; };
+		BD734CFD2A7C288E0047B3AC /* appleValue-main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "appleValue-main"; path = "../../../Desktop/appleValue-main"; sourceTree = "<group>"; };
+		BD734D012A7C29B20047B3AC /* blah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blah.swift; sourceTree = "<group>"; };
+		BD734D042A7C2A4C0047B3AC /* StockSensei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockSensei.xcdatamodel; sourceTree = "<group>"; };
 		BDCAD47C2A7ACF6500736240 /* AAPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAPL.swift; sourceTree = "<group>"; };
 		BDCAD47E2A7ACFE700736240 /* BA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BA.swift; sourceTree = "<group>"; };
 		BDCAD4802A7ACFFB00736240 /* AMZN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMZN.swift; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		BDCAD48A2A7AD45000736240 /* UNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNH.swift; sourceTree = "<group>"; };
 		BDCAD48C2A7AD46200736240 /* XOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOM.swift; sourceTree = "<group>"; };
 		BDCAD4902A7AE97B00736240 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BDCAD4992A7BEE9D00736240 /* StockSensei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockSensei.xcdatamodel; sourceTree = "<group>"; };
 		BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 		BD463E932A795FB9003B3DAF = {
 			isa = PBXGroup;
 			children = (
+				BD734D032A7C2A4C0047B3AC /* StockSensei.xcdatamodeld */,
 				BDCAD48F2A7AD72D00736240 /* main pages */,
 				BDCAD48E2A7AD6D300736240 /* Stocks */,
 				BD463E9E2A795FB9003B3DAF /* StockSensei */,
@@ -96,7 +99,6 @@
 				BD463E9F2A795FB9003B3DAF /* StockSenseiApp.swift */,
 				BD463EA32A795FBA003B3DAF /* Assets.xcassets */,
 				BD463EA52A795FBA003B3DAF /* Preview Content */,
-				BDCAD4982A7BEE9D00736240 /* StockSensei.xcdatamodeld */,
 			);
 			path = StockSensei;
 			sourceTree = "<group>";
@@ -112,6 +114,7 @@
 		BDCAD48E2A7AD6D300736240 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
+				BD734D012A7C29B20047B3AC /* blah.swift */,
 				BDCAD4802A7ACFFB00736240 /* AMZN.swift */,
 				BDCAD4902A7AE97B00736240 /* Persistence.swift */,
 				BDCAD4842A7AD2F000736240 /* MSFT.swift */,
@@ -135,9 +138,9 @@
 				BD192A462A7BE75400948611 /* basicLearn.swift */,
 				BD463EB52A7999E6003B3DAF /* Invest.swift */,
 				BD463EB32A79999A003B3DAF /* Funds.swift */,
-				BD734CF92A7C27630047B3AC /* appleValue-main.zip */,
 				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
 				BD463EAF2A79979E003B3DAF /* login.swift */,
+				BD734CFD2A7C288E0047B3AC /* appleValue-main */,
 				BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */,
 			);
 			path = "main pages";
@@ -201,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD734CFA2A7C27630047B3AC /* appleValue-main.zip in Resources */,
 				BD463EA72A795FBA003B3DAF /* Preview Assets.xcassets in Resources */,
+				BD734CFE2A7C288E0047B3AC /* appleValue-main in Resources */,
 				BD463EA42A795FBA003B3DAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,10 +220,11 @@
 				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
 				BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */,
 				BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */,
-				BDCAD49A2A7BEE9D00736240 /* StockSensei.xcdatamodeld in Sources */,
+				BD734D022A7C29B20047B3AC /* blah.swift in Sources */,
 				BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */,
 				BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */,
 				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
+				BD734D052A7C2A4C0047B3AC /* StockSensei.xcdatamodeld in Sources */,
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
 				BDCAD4832A7AD2E600736240 /* META.swift in Sources */,
 				BD463EB02A79979E003B3DAF /* login.swift in Sources */,
@@ -435,12 +439,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BDCAD4982A7BEE9D00736240 /* StockSensei.xcdatamodeld */ = {
+		BD734D032A7C2A4C0047B3AC /* StockSensei.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BDCAD4992A7BEE9D00736240 /* StockSensei.xcdatamodel */,
+				BD734D042A7C2A4C0047B3AC /* StockSensei.xcdatamodel */,
 			);
-			currentVersion = BDCAD4992A7BEE9D00736240 /* StockSensei.xcdatamodel */;
+			currentVersion = BD734D042A7C2A4C0047B3AC /* StockSensei.xcdatamodel */;
 			path = StockSensei.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

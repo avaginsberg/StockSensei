@@ -41,6 +41,9 @@ struct login: View {
                 }//hstack 2 closing
                 Text("Selected salary: \(selection)")
                     .font(.title2)
+                Button("Enter"){
+                    
+                }
             }//some view closing
         }//struct closing
         

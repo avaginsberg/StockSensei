@@ -20,10 +20,7 @@ struct Funds: View {
     @Binding var numselection:Int
     var body: some View {
         VStack {
-            TextField("Enter your salary", text: $selection)
-                .padding()
-                .keyboardType(.decimalPad)
-            
+            Text("Your chosen salary is \(selection)")
             Button("Calculate Coin") {
                 if $selection.wrappedValue == "N/A" {
                     numselection = 100000
