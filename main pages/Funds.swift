@@ -17,6 +17,7 @@ struct Funds: View {
     @State private var coinAmount = 0.0
     @Binding var name:String
     @Binding var selection:String
+    @Binding var numselection:Int
     var body: some View {
         VStack {
             TextField("Enter your salary", text: $selection)
@@ -24,6 +25,21 @@ struct Funds: View {
                 .keyboardType(.decimalPad)
             
             Button("Calculate Coin") {
+                if $selection.wrappedValue == "N/A" {
+                    numselection = 100000
+                
+                } else if $selection.wrappedValue == "$40,000"{
+                    numselection = 40000
+                } else if $selection.wrappedValue == "$60,000"{
+                    numselection = 60000
+                } else if $selection.wrappedValue == "$80,000"{
+                    numselection = 80000
+                } else if $selection.wrappedValue == "$100,000"{
+                    numselection = 100000
+                } else if $selection.wrappedValue == "$120,000+"{
+                    numselection = 120000
+                }
+                
                 if let salary = Double(selection) {
                     coinAmount = calculateCoin(from: salary)
                 }
@@ -51,7 +67,7 @@ struct Funds: View {
 
 struct Funds_Previews: PreviewProvider {
     static var previews: some View {
-        Funds(name:.constant("ava"), selection:.constant("N/A"))
+        Funds(name:.constant("ava"), selection:.constant("N/A"), numselection:.constant(100000))
         
     }
 }

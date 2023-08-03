@@ -11,7 +11,7 @@ import SwiftUI
 struct StockSenseiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(name:.constant("ava"), selection:.constant("N/A"))
+            ContentView(name:.constant("ava"), selection:.constant("N/A"), numselection:.constant(100000))
         }
     }
 }

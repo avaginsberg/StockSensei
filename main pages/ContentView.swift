@@ -12,8 +12,10 @@ struct ContentView: View {
     @State var OwnAmzn = false
     @Binding var selection:String
     @State private var isOwnAmzn: Bool = false
+    @Binding var numselection:Int
     var body: some View{
-        AMZN(ownAmzn: $isOwnAmzn)
+        //AMZN(ownAmzn: $isOwnAmzn, showButton: false)
+        //Invest(ownAmzn: $isOwnAmzn)
         NavigationStack{
             VStack(){
                 Text("Welcome to StockSensei")
@@ -31,10 +33,10 @@ struct ContentView: View {
                         Text("Learn")
                         
                     }//navlink closing
-                    NavigationLink(destination:Funds(name:$name, selection:$selection)){
+                    NavigationLink(destination:Funds(name:$name, selection:$selection, numselection:$numselection)){
                         Text("Funds")
                     }//navlink closing funds
-                    NavigationLink(destination:Invest()){
+                    NavigationLink(destination:Invest(ownAmzn:$isOwnAmzn)){
                         Text("Invest")
                     }//navlink closing invest
                 }//hstack closing
@@ -48,6 +50,6 @@ struct ContentView: View {
 }//struct closing
 
 var previews: some View {
-    ContentView(name:.constant("ava"), OwnAmzn:true, selection:.constant("N/A"))
+    ContentView(name:.constant("ava"), OwnAmzn:true, selection:.constant("N/A"), numselection:.constant(100000))
     }
 

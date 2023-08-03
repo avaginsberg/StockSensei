@@ -18,6 +18,7 @@
 		BD463EB22A79991B003B3DAF /* learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB12A79991B003B3DAF /* learn.swift */; };
 		BD463EB42A79999A003B3DAF /* Funds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB32A79999A003B3DAF /* Funds.swift */; };
 		BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EB52A7999E6003B3DAF /* Invest.swift */; };
+		BD734CFA2A7C27630047B3AC /* appleValue-main.zip in Resources */ = {isa = PBXBuildFile; fileRef = BD734CF92A7C27630047B3AC /* appleValue-main.zip */; };
 		BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD47C2A7ACF6500736240 /* AAPL.swift */; };
 		BDCAD47F2A7ACFE700736240 /* BA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD47E2A7ACFE700736240 /* BA.swift */; };
 		BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4802A7ACFFB00736240 /* AMZN.swift */; };
@@ -45,6 +46,7 @@
 		BD463EB12A79991B003B3DAF /* learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn.swift; sourceTree = "<group>"; };
 		BD463EB32A79999A003B3DAF /* Funds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funds.swift; sourceTree = "<group>"; };
 		BD463EB52A7999E6003B3DAF /* Invest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invest.swift; sourceTree = "<group>"; };
+		BD734CF92A7C27630047B3AC /* appleValue-main.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "appleValue-main.zip"; path = "../../../Downloads/appleValue-main.zip"; sourceTree = "<group>"; };
 		BDCAD47C2A7ACF6500736240 /* AAPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAPL.swift; sourceTree = "<group>"; };
 		BDCAD47E2A7ACFE700736240 /* BA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BA.swift; sourceTree = "<group>"; };
 		BDCAD4802A7ACFFB00736240 /* AMZN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMZN.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				BD192A462A7BE75400948611 /* basicLearn.swift */,
 				BD463EB52A7999E6003B3DAF /* Invest.swift */,
 				BD463EB32A79999A003B3DAF /* Funds.swift */,
+				BD734CF92A7C27630047B3AC /* appleValue-main.zip */,
 				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
 				BD463EAF2A79979E003B3DAF /* login.swift */,
 				BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD734CFA2A7C27630047B3AC /* appleValue-main.zip in Resources */,
 				BD463EA72A795FBA003B3DAF /* Preview Assets.xcassets in Resources */,
 				BD463EA42A795FBA003B3DAF /* Assets.xcassets in Resources */,
 			);
