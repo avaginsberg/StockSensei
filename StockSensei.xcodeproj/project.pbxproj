@@ -28,6 +28,8 @@
 		BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48A2A7AD45000736240 /* UNH.swift */; };
 		BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48C2A7AD46200736240 /* XOM.swift */; };
 		BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4902A7AE97B00736240 /* Persistence.swift */; };
+		BDCAD49A2A7BEE9D00736240 /* StockSensei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4982A7BEE9D00736240 /* StockSensei.xcdatamodeld */; };
+		BDCAD4A02A7BF25E00736240 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		BDCAD48A2A7AD45000736240 /* UNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNH.swift; sourceTree = "<group>"; };
 		BDCAD48C2A7AD46200736240 /* XOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOM.swift; sourceTree = "<group>"; };
 		BDCAD4902A7AE97B00736240 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BDCAD4992A7BEE9D00736240 /* StockSensei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockSensei.xcdatamodel; sourceTree = "<group>"; };
+		BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 				BD463E9F2A795FB9003B3DAF /* StockSenseiApp.swift */,
 				BD463EA32A795FBA003B3DAF /* Assets.xcassets */,
 				BD463EA52A795FBA003B3DAF /* Preview Content */,
+				BDCAD4982A7BEE9D00736240 /* StockSensei.xcdatamodeld */,
 			);
 			path = StockSensei;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				BD463EB32A79999A003B3DAF /* Funds.swift */,
 				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
 				BD463EAF2A79979E003B3DAF /* login.swift */,
+				BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */,
 			);
 			path = "main pages";
 			sourceTree = "<group>";
@@ -207,12 +213,14 @@
 				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
 				BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */,
 				BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */,
+				BDCAD49A2A7BEE9D00736240 /* StockSensei.xcdatamodeld in Sources */,
 				BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */,
 				BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */,
 				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
 				BDCAD4832A7AD2E600736240 /* META.swift in Sources */,
 				BD463EB02A79979E003B3DAF /* login.swift in Sources */,
+				BDCAD4A02A7BF25E00736240 /* UserViewModel.swift in Sources */,
 				BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */,
 				BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */,
 				BD463EA02A795FB9003B3DAF /* StockSenseiApp.swift in Sources */,
@@ -421,6 +429,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDCAD4982A7BEE9D00736240 /* StockSensei.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDCAD4992A7BEE9D00736240 /* StockSensei.xcdatamodel */,
+			);
+			currentVersion = BDCAD4992A7BEE9D00736240 /* StockSensei.xcdatamodel */;
+			path = StockSensei.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD463E942A795FB9003B3DAF /* Project object */;
 }

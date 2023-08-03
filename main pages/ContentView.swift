@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
-
+import CoreData
 struct ContentView: View {
     @Binding var name:String
     @State var OwnAmzn = false
+    @Binding var selection:String
     var body: some View{
         NavigationStack{
             VStack(){
@@ -28,7 +29,7 @@ struct ContentView: View {
                         Text("Learn")
                         
                     }//navlink closing
-                    NavigationLink(destination:Funds(name:$name)){
+                    NavigationLink(destination:Funds(name:$name, selection:$selection)){
                         Text("Funds")
                     }//navlink closing funds
                     NavigationLink(destination:Invest()){
@@ -44,8 +45,7 @@ struct ContentView: View {
     }//view closing
 }//struct closing
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(name:.constant("ava"), OwnAmzn:false)
+var previews: some View {
+    ContentView(name:.constant("ava"), OwnAmzn:false, selection:.constant("N/A"))
     }
-}
+
