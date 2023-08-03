@@ -11,7 +11,9 @@ struct ContentView: View {
     @Binding var name:String
     @State var OwnAmzn = false
     @Binding var selection:String
+    @State private var isOwnAmzn: Bool = false
     var body: some View{
+        AMZN(ownAmzn: $isOwnAmzn)
         NavigationStack{
             VStack(){
                 Text("Welcome to StockSensei")
@@ -46,6 +48,6 @@ struct ContentView: View {
 }//struct closing
 
 var previews: some View {
-    ContentView(name:.constant("ava"), OwnAmzn:false, selection:.constant("N/A"))
+    ContentView(name:.constant("ava"), OwnAmzn:true, selection:.constant("N/A"))
     }
 

@@ -8,18 +8,21 @@
 import SwiftUI
 
 struct AMZN: View {
-    @Binding var ownAmzn: Bool // Use lowercase initial for variable names
+    @Binding var ownAmzn: Bool// Use lowercase initial for variable names
     var body: some View {
-        Button("Buy") {
-            ownAmzn = true
-            
+        VStack {
+            Text("ownAmzn: \(ownAmzn.description)")
+            Button("Change to True") {
+                ownAmzn = true
+                
+            }
+            if ownAmzn {
+                Text("You own AMZN!")
+            } else {
+                Text("You don't own AMZN.")
+                    }
+                }
         }//button close
-        if ownAmzn {
-            Text("u alr own dumbass bruhhhh")
-            
-        } else {
-            Text("You don't own Amzn")
-        }
     }
 }
 struct AMZN_Previews: PreviewProvider {
