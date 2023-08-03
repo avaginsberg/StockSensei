@@ -12,10 +12,16 @@ struct AMZN: View {
     var body: some View {
         Button("Buy") {
             ownAmzn = true
+            
+        }//button close
+        if ownAmzn {
+            Text("u alr own dumbass bruhhhh")
+            
+        } else {
+            Text("You don't own Amzn")
         }
     }
 }
-
 struct AMZN_Previews: PreviewProvider {
     static var previews: some View {
         AMZN(ownAmzn: .constant(false)) // Use .constant to bind to a static value
