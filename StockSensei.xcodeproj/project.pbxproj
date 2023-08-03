@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD192A472A7BE75400948611 /* basicLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A462A7BE75400948611 /* basicLearn.swift */; };
+		BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A482A7BE77100948611 /* typeInvestment.swift */; };
+		BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A4A2A7BE77E00948611 /* ourVision.swift */; };
 		BD463EA02A795FB9003B3DAF /* StockSenseiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463E9F2A795FB9003B3DAF /* StockSenseiApp.swift */; };
 		BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD463EA12A795FB9003B3DAF /* ContentView.swift */; };
 		BD463EA42A795FBA003B3DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD463EA32A795FBA003B3DAF /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD192A462A7BE75400948611 /* basicLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicLearn.swift; sourceTree = "<group>"; };
+		BD192A482A7BE77100948611 /* typeInvestment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeInvestment.swift; sourceTree = "<group>"; };
+		BD192A4A2A7BE77E00948611 /* ourVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourVision.swift; sourceTree = "<group>"; };
 		BD463E9C2A795FB9003B3DAF /* StockSensei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockSensei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD463E9F2A795FB9003B3DAF /* StockSenseiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSenseiApp.swift; sourceTree = "<group>"; };
 		BD463EA12A795FB9003B3DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				BD463EB12A79991B003B3DAF /* learn.swift */,
+				BD192A482A7BE77100948611 /* typeInvestment.swift */,
+				BD192A4A2A7BE77E00948611 /* ourVision.swift */,
+				BD192A462A7BE75400948611 /* basicLearn.swift */,
 				BD463EB52A7999E6003B3DAF /* Invest.swift */,
 				BD463EB32A79999A003B3DAF /* Funds.swift */,
 				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
@@ -197,6 +206,8 @@
 			files = (
 				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
 				BDCAD4912A7AE97B00736240 /* Persistence.swift in Sources */,
+				BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */,
+				BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */,
 				BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */,
 				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
@@ -208,6 +219,7 @@
 				BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */,
 				BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */,
 				BDCAD4852A7AD2F000736240 /* MSFT.swift in Sources */,
+				BD192A472A7BE75400948611 /* basicLearn.swift in Sources */,
 				BDCAD4872A7AD2F900736240 /* GOOG.swift in Sources */,
 				BDCAD47F2A7ACFE700736240 /* BA.swift in Sources */,
 				BD463EB42A79999A003B3DAF /* Funds.swift in Sources */,

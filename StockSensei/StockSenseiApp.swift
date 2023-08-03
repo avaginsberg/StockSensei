@@ -11,7 +11,7 @@ import SwiftUI
 struct StockSenseiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(name:.constant("ava"), AMZN:false)
+            ContentView(name:.constant("ava"))
         }
     }
 }

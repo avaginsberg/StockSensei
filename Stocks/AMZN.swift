@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-
 struct AMZN: View {
-    @Binding var OwnAmzn = false
+    @Binding var ownAmzn: Bool // Use lowercase initial for variable names
     var body: some View {
         Button("Buy") {
-          OwnAmzn = true
+            ownAmzn = true
         }
     }
 }
 
 struct AMZN_Previews: PreviewProvider {
     static var previews: some View {
-        AMZN(OwnAmzn:false)
+        AMZN(ownAmzn: .constant(false)) // Use .constant to bind to a static value
     }
 }
+
