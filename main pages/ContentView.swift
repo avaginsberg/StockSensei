@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var OwnAmzn = false
     @Binding var selection:String
     @State private var isOwnAmzn: Bool = false
-    @Binding var numselection:Int
+    @Binding var numselection:Double
     var body: some View{
         //AMZN(ownAmzn: $isOwnAmzn, showButton: false)
         //Invest(ownAmzn: $isOwnAmzn)
@@ -50,6 +50,6 @@ struct ContentView: View {
 }//struct closing
 
 var previews: some View {
-    ContentView(name:.constant("ava"), OwnAmzn:true, selection:.constant("N/A"), numselection:.constant(100000))
+    ContentView(name:.constant("ava"), OwnAmzn:true, selection:.constant("N/A"), numselection:.constant(100000.0))
     }
 

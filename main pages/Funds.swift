@@ -17,33 +17,34 @@ struct Funds: View {
     @State private var coinAmount = 0.0
     @Binding var name:String
     @Binding var selection:String
-    @Binding var numselection:Int
+    @Binding var numselection:Double
     var body: some View {
         VStack {
-            Text("Your chosen salary is \(selection)")
+            Text("Your chosen salary is \(numselection)")
             Button("Calculate Coin") {
                 if $selection.wrappedValue == "N/A" {
-                    numselection = 100000
+                    numselection = 100000.0
                 
                 } else if $selection.wrappedValue == "$40,000"{
-                    numselection = 40000
+                    numselection = 40000.0
                 } else if $selection.wrappedValue == "$60,000"{
-                    numselection = 60000
+                    numselection = 60000.0
                 } else if $selection.wrappedValue == "$80,000"{
-                    numselection = 80000
+                    numselection = 80000.0
                 } else if $selection.wrappedValue == "$100,000"{
-                    numselection = 100000
+                    numselection = 100000.0
                 } else if $selection.wrappedValue == "$120,000+"{
-                    numselection = 120000
+                    numselection = 120000.0
                 }
-                
-                if let salary = Double(selection) {
-                    coinAmount = calculateCoin(from: salary)
-                }
+                coinAmount = numselection*0.15
+                //if let salary = Double(selection) {
+                //    coinAmount = calculateCoin(from: salary)
+                //}
             }
             .padding()
             
             HStack {
+                let formatted = String(format: "coinAmount: %.2f", coinAmount)
                 Text("15% of your salary is")
                 Text("\(coinAmount, specifier: "%.2f") coins")
                 Image("coin") //
