@@ -7,24 +7,34 @@
 
 import SwiftUI
 
-
-class UserData: ObservableObject {
-    @Published var name: String = ""
-    @Published var selection: String = "N/A"
-    @Published var numselection: Double = 100000.0
-    
-}
+//class UserData: ObservableObject {
+//    @Published var name: String = ""
+//    @Published var selection: String = "N/A"
+//    @Published var numselection: Double = 100000.0
+//    init(){}
+//}
 
 @main
 struct StockSenseiApp: App {
-    @StateObject private var userData = UserData()
-    @Binding var coinAmount:Double
+//    init() {
+//        self.name = $name
+//        self.selection = ""
+//        self.numselection = 0.0
+//        self.coinAmount = 0.0
+//    }
+//
+   // @StateObject private var userData = UserData()
+    @State private var name: String = "" // Use @State instead of @Binding
+       @State private var selection: String = ""
+       @State private var numselection: Double = 0.0
+       @State private var coinAmount: Double = 0.0
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView(name: userData.name, selection: userData.selection, numselection: userData.numselection, coinAmount:$coinAmount)
+                ContentView(name: "", selection: "", numselection: 0.0, coinAmount:.constant(0.0))
             }
-            .environmentObject(userData)
+            //.environmentObject(userData)
         }
     }
 }

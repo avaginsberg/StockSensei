@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 struct ContentView: View {
-    @EnvironmentObject var userData: UserData
+    //@EnvironmentObject var userData: UserData
     @State var name:String
     @State var OwnAmzn = false
     @State var selection:String
@@ -26,9 +26,11 @@ struct ContentView: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                 HStack(){
-                    NavigationLink(destination: login(name: $userData.name, selection: $userData.selection, numselection: $userData.numselection)) {
+                    NavigationLink(destination: login(name: $name, selection: $selection, numselection: $numselection)) {
                                         Text("Login")
                                             .foregroundColor(Color.black)
+                                            .background(Color.green)
+                                            .cornerRadius(10)
                         
                     }//navlink closing
                     NavigationLink(destination:learn()){
@@ -53,7 +55,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount:.constant(0.0))
-            .environmentObject(UserData()) // Add the environment object for UserData
+            //.environmentObject(UserData()) // Add the environment object for UserData
     }
 }
 
