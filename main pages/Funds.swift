@@ -14,13 +14,16 @@ func calculateCoin(from salary: Double) -> Double {
 }
 
 struct Funds: View {
-    @State private var coinAmount = 0.0
+    @State var coinAmount = 0.0
     @Binding var name:String
     @Binding var selection:String
     @Binding var numselection:Double
     var body: some View {
         VStack {
-            Text("Your chosen salary is \(numselection)")
+            let formattedded = String(format: "numselection: %.2f", numselection)
+            Text("Your chosen salary is")
+            Text("\(numselection, specifier: "%.2f") coins")
+
             Button("Calculate Coin") {
                 if $selection.wrappedValue == "N/A" {
                     numselection = 100000.0
@@ -45,13 +48,14 @@ struct Funds: View {
             
             HStack {
                 let formatted = String(format: "coinAmount: %.2f", coinAmount)
-                Text("15% of your salary is")
-                Text("\(coinAmount, specifier: "%.2f") coins")
+                Text("You have")
+                Text("\(coinAmount, specifier: "%.2f") coins to invest")
                 Image("coin") //
                 
                     .resizable()
                     .frame(width: 20, height: 20)
             }
+        
             .padding()
             
             Spacer()
@@ -60,12 +64,9 @@ struct Funds: View {
     }
 }
 
-    
-
-
+// Funds preview
 struct Funds_Previews: PreviewProvider {
     static var previews: some View {
-        Funds(name:.constant("ava"), selection:.constant("N/A"), numselection:.constant(100000))
-        
+        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0))
     }
 }

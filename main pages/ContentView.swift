@@ -8,11 +8,13 @@
 import SwiftUI
 import CoreData
 struct ContentView: View {
-    @Binding var name:String
+    @EnvironmentObject var userData: UserData
+    @State var name:String
     @State var OwnAmzn = false
-    @Binding var selection:String
+    @State var selection:String
     @State private var isOwnAmzn: Bool = false
-    @Binding var numselection:Double
+    @State var numselection:Double = 100000
+    @Binding var coinAmount:Double 
     var body: some View{
         //AMZN(ownAmzn: $isOwnAmzn, showButton: false)
         //Invest(ownAmzn: $isOwnAmzn)
@@ -24,9 +26,9 @@ struct ContentView: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                 HStack(){
-                    NavigationLink(destination: login(name:"")) {
-                        Text("Login")
-                            .foregroundColor(Color.black)
+                    NavigationLink(destination: login(name: $userData.name, selection: $userData.selection, numselection: $userData.numselection)) {
+                                        Text("Login")
+                                            .foregroundColor(Color.black)
                         
                     }//navlink closing
                     NavigationLink(destination:learn()){
@@ -36,7 +38,7 @@ struct ContentView: View {
                     NavigationLink(destination:Funds(name:$name, selection:$selection, numselection:$numselection)){
                         Text("Funds")
                     }//navlink closing funds
-                    NavigationLink(destination:Invest(ownAmzn:$isOwnAmzn)){
+                    NavigationLink(destination:Invest(ownAmzn:$isOwnAmzn, coinAmount:$coinAmount)){
                         Text("Invest")
                     }//navlink closing invest
                 }//hstack closing
@@ -48,8 +50,12 @@ struct ContentView: View {
         } //navstack closing
     }//view closing
 }//struct closing
-
-var previews: some View {
-    ContentView(name:.constant("ava"), OwnAmzn:true, selection:.constant("N/A"), numselection:.constant(100000.0))
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount:.constant(0.0))
+            .environmentObject(UserData()) // Add the environment object for UserData
     }
+}
+
+
 

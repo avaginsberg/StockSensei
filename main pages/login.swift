@@ -8,8 +8,9 @@
 import SwiftUI
 import CoreData
 struct login: View {
-    @State var name: String
-    @State var selection = "N/A"
+    @Binding var name: String
+    @Binding var selection: String
+    @Binding var numselection:Double
     let salaries = ["N/A", "$40,000", "$60,000", "$80,000", "$100,000", "$120,000+"]
     
     var body: some View {
@@ -42,7 +43,19 @@ struct login: View {
                 Text("Selected salary: \(selection)")
                     .font(.title2)
                 Button("Enter"){
-                    
+                    if selection == "N/A" {
+                       numselection = 100000.0
+                   } else if selection == "$40,000" {
+                       numselection = 40000.0
+                   } else if selection == "$60,000" {
+                       numselection = 60000.0
+                   } else if selection == "$80,000" {
+                       numselection = 80000.0
+                   } else if selection == "$100,000" {
+                       numselection = 100000.0
+                   } else if selection == "$120,000+" {
+                       numselection = 120000.0
+                   }
                 }
             }//some view closing
         }//struct closing
@@ -51,11 +64,8 @@ struct login: View {
     }
 }
 
-
-
-
 struct login_Previews: PreviewProvider {
     static var previews: some View {
-        login(name:"")
+        login(name: .constant(""), selection: .constant("N/A"), numselection: .constant(100000.0))
     }
 }
