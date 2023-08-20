@@ -34,9 +34,9 @@ struct ContentView: View {
                         NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection)) {
                             Text("Funds")
                         }
-                        NavigationLink(destination: Invest(ownAmzn: $isOwnAmzn, coinAmount: $coinAmount)) {
-                            Text("Invest")
-                        }
+                        NavigationLink(destination: Invest(ownAmzn: $isOwnAmzn, coinAmount:$coinAmount)) {
+                                Text("Invest")
+                                                }
                     }
                 }
                 .padding()
@@ -50,7 +50,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount: .constant(0.0))
+        ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount:.constant(0.0))
     }
 }
 

@@ -20,26 +20,30 @@ struct Funds: View {
     @Binding var numselection:Double
     var body: some View {
         VStack {
-            let formattedded = String(format: "numselection: %.2f", numselection)
+            let formated = String(format: "numselection: %.2f", numselection)
             Text("Your chosen salary is")
             Text("\(numselection, specifier: "%.2f") coins")
 
             Button("Calculate Coin") {
                 if $selection.wrappedValue == "N/A" {
                     numselection = 100000.0
-                
+                    coinAmount = 15000.0
                 } else if $selection.wrappedValue == "$40,000"{
                     numselection = 40000.0
+                    coinAmount = 6000.0
                 } else if $selection.wrappedValue == "$60,000"{
                     numselection = 60000.0
+                    coinAmount = 9000.0
                 } else if $selection.wrappedValue == "$80,000"{
                     numselection = 80000.0
+                    coinAmount = 12000.0
                 } else if $selection.wrappedValue == "$100,000"{
                     numselection = 100000.0
+                    coinAmount = 15000.0
                 } else if $selection.wrappedValue == "$120,000+"{
                     numselection = 120000.0
+                    coinAmount = 18000.0
                 }
-                coinAmount = numselection*0.15
                 //if let salary = Double(selection) {
                 //    coinAmount = calculateCoin(from: salary)
                 //}
