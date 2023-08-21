@@ -15,8 +15,8 @@ struct ContentView: View {
                 Color(red: 0.827, green: 0.827, blue: 0.827).edgesIgnoringSafeArea(.all) // Blue background covering the entire screen
                 
                 VStack {
-                    Text("Welcome to StockSensei")
-                        .font(.largeTitle)
+                    Text("StockSensei")
+                        .font(Font.custom("Rubik-Regular", size:50))
                     Image("stocks")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)

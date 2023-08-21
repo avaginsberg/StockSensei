@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		899FA5952A931B61003B99D4 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */; };
 		BD192A472A7BE75400948611 /* basicLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A462A7BE75400948611 /* basicLearn.swift */; };
 		BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A482A7BE77100948611 /* typeInvestment.swift */; };
 		BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A4A2A7BE77E00948611 /* ourVision.swift */; };
@@ -33,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		899FA58F2A931A02003B99D4 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "../../Desktop/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		899FA5962A931DF5003B99D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD192A462A7BE75400948611 /* basicLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicLearn.swift; sourceTree = "<group>"; };
 		BD192A482A7BE77100948611 /* typeInvestment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeInvestment.swift; sourceTree = "<group>"; };
 		BD192A4A2A7BE77E00948611 /* ourVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourVision.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		BD463E932A795FB9003B3DAF = {
 			isa = PBXGroup;
 			children = (
+				899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */,
 				BD734D032A7C2A4C0047B3AC /* StockSensei.xcdatamodeld */,
 				BDCAD48F2A7AD72D00736240 /* main pages */,
 				BDCAD48E2A7AD6D300736240 /* Stocks */,
@@ -91,6 +95,7 @@
 		BD463E9E2A795FB9003B3DAF /* StockSensei */ = {
 			isa = PBXGroup;
 			children = (
+				899FA5962A931DF5003B99D4 /* Info.plist */,
 				BD463E9F2A795FB9003B3DAF /* StockSenseiApp.swift */,
 				BD463EA32A795FBA003B3DAF /* Assets.xcassets */,
 				BD463EA52A795FBA003B3DAF /* Preview Content */,
@@ -198,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD463EA72A795FBA003B3DAF /* Preview Assets.xcassets in Resources */,
+				899FA5952A931B61003B99D4 /* Rubik-Regular.ttf in Resources */,
 				BD463EA42A795FBA003B3DAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +365,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StockSensei/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StockSensei/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -387,6 +395,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StockSensei/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StockSensei/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
