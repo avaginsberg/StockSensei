@@ -3,9 +3,8 @@ import CoreData
 
 struct ContentView: View {
     @State var name: String
-    @State var OwnAmzn = false
+    @State var ownAmzn = 0
     @State var selection: String
-    @State private var isOwnAmzn: Bool = false
     @State var numselection: Double = 100000
     @State var coinAmount = 0.0
     
@@ -29,13 +28,22 @@ struct ContentView: View {
                                 .cornerRadius(10)
                         }
                         NavigationLink(destination: learn()) {
-                            Text("Learn")
+                            Text("Learn").foregroundColor(Color.black)
+                                .frame(width: 80, height: 80)
+                                .background(Color.blue)
+                                .cornerRadius(10)
                         }
                         NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection, coinAmount: $coinAmount)) {
-                            Text("Funds")
+                            Text("Funds").foregroundColor(Color.black)
+                                .frame(width: 80, height: 80)
+                                .background(Color.blue)
+                                .cornerRadius(10)
                         }
-                        NavigationLink(destination: Invest(ownAmzn: $isOwnAmzn, coinAmount:$coinAmount)) {
-                                Text("Invest")
+                        NavigationLink(destination: Invest(ownAmzn: $ownAmzn, coinAmount:$coinAmount)) {
+                                Text("Invest").foregroundColor(Color.black)
+                                .frame(width: 80, height: 80)
+                                .background(Color.blue)
+                                .cornerRadius(10)
                                                 }
                     }
                 }
@@ -50,7 +58,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount:0.0)
+        ContentView(name: "John Doe", ownAmzn:0, selection: "N/A", numselection: 100000.0, coinAmount:0.0)
     }
 }
 

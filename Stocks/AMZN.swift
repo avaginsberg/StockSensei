@@ -7,7 +7,7 @@
 ////
 import SwiftUI
 struct AMZN: View {
-    @Binding var ownAmzn: Bool
+    @Binding var ownAmzn: Int
     @Binding var coinAmount:Double
     let showButton: Bool
     @State private var currentStockPrice: Double = 1500.00 // Initial stock price
@@ -27,10 +27,13 @@ struct AMZN: View {
                 .padding(.vertical, 20)
             HStack {
                 Button(action: {
-                    if ownAmzn {
+                    if coinAmount >= currentStockPrice {
                         coinAmount -= currentStockPrice
-
                     }
+                    if coinAmount >= currentStockPrice{
+                    ownAmzn += 1
+                    }
+                    
 
                 }) {
                     Text("Buy")
@@ -42,6 +45,13 @@ struct AMZN: View {
                                 }
                 Spacer()
                 Button(action: {
+                    if ownAmzn >= 1{
+                        coinAmount += currentStockPrice
+                    }
+                    if ownAmzn >= 1 {
+                        ownAmzn -= 1
+                    }
+                    
                 }) {
                     Text("Sell")
                         .font(.headline)
@@ -81,7 +91,7 @@ struct AMZN: View {
 }
 struct AMZN_Previews: PreviewProvider {
   static var previews: some View {
-    AMZN(ownAmzn: .constant(false),coinAmount:.constant(0.0), showButton: true)
+    AMZN(ownAmzn: .constant(0),coinAmount:.constant(0.0), showButton: true)
   }
 }
 ///*convert the double "coinAmount to a string" in swiftUI*/

@@ -9,9 +9,8 @@ import SwiftUI
 
 struct Invest: View {
     @State var stock = ""
-    @Binding var ownAmzn: Bool
+    @Binding var ownAmzn: Int
     @Binding var coinAmount:Double
-    @State private var isOwnAmzn: Bool = false
     var body: some View {
         NavigationStack {
             VStack {
@@ -42,7 +41,7 @@ struct Invest: View {
                         }
                     )
                     NavigationLink(
-                        destination: AMZN(ownAmzn: $isOwnAmzn,coinAmount:$coinAmount, showButton: true), // Provide a valid binding
+                        destination: AMZN(ownAmzn: $ownAmzn,coinAmount:$coinAmount, showButton: true), // Provide a valid binding
                         label: {
                             Text("AMZN")
                                 .font(.headline)
@@ -125,6 +124,6 @@ struct Invest: View {
 
                struct Invest_Previews: PreviewProvider {
                    static var previews: some View {
-                       Invest(ownAmzn:.constant(true), coinAmount:.constant(0.0))
+                       Invest(ownAmzn:.constant(0), coinAmount:.constant(0.0))
                    }
                }
