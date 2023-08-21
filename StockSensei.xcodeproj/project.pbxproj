@@ -32,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		899FA58F2A931A02003B99D4 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		BD192A462A7BE75400948611 /* basicLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicLearn.swift; sourceTree = "<group>"; };
 		BD192A482A7BE77100948611 /* typeInvestment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeInvestment.swift; sourceTree = "<group>"; };
 		BD192A4A2A7BE77E00948611 /* ourVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourVision.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		BD463EA52A795FBA003B3DAF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				899FA58F2A931A02003B99D4 /* Rubik-VariableFont_wght.ttf */,
 				BD463EA62A795FBA003B3DAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";

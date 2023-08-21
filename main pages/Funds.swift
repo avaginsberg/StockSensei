@@ -14,10 +14,10 @@ func calculateCoin(from salary: Double) -> Double {
 }
 
 struct Funds: View {
-    @State var coinAmount = 0.0
     @Binding var name:String
     @Binding var selection:String
     @Binding var numselection:Double
+    @Binding var coinAmount:Double
     var body: some View {
         VStack {
             let formated = String(format: "numselection: %.2f", numselection)
@@ -71,6 +71,6 @@ struct Funds: View {
 // Funds preview
 struct Funds_Previews: PreviewProvider {
     static var previews: some View {
-        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0))
+        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0), coinAmount:.constant(0.0))
     }
 }

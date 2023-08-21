@@ -15,6 +15,7 @@ struct AMZN: View {
 
     var body: some View {
         VStack {
+            Text(String(format: "%.2f", $coinAmount.wrappedValue))
             Text("Amazon Stock Price")
                 .font(.title)
                 .fontWeight(.bold)
@@ -60,7 +61,6 @@ struct AMZN: View {
             timer?.invalidate()
             timer = nil
         }
-        Text(String(format: "%.2f", $coinAmount.wrappedValue))
     }//vstack close
 
       func startStockPriceSimulation() {

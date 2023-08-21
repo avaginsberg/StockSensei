@@ -7,7 +7,7 @@ struct ContentView: View {
     @State var selection: String
     @State private var isOwnAmzn: Bool = false
     @State var numselection: Double = 100000
-    @Binding var coinAmount: Double
+    @State var coinAmount = 0.0
     
     var body: some View {
         NavigationView {
@@ -31,7 +31,7 @@ struct ContentView: View {
                         NavigationLink(destination: learn()) {
                             Text("Learn")
                         }
-                        NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection)) {
+                        NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection, coinAmount: $coinAmount)) {
                             Text("Funds")
                         }
                         NavigationLink(destination: Invest(ownAmzn: $isOwnAmzn, coinAmount:$coinAmount)) {
@@ -50,7 +50,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount:.constant(0.0))
+        ContentView(name: "John Doe", selection: "N/A", numselection: 100000.0, coinAmount:0.0)
     }
 }
 

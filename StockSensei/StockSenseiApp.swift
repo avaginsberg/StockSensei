@@ -32,7 +32,7 @@ struct StockSenseiApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView(name: "", selection: "", numselection: 0.0, coinAmount: .constant(0.0))
+                ContentView(name: "", selection: "", numselection: 0.0, coinAmount:0.0)
             }
             //.environmentObject(userData)
         }
