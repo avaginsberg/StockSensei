@@ -30,7 +30,6 @@
 		BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD4882A7AD43D00736240 /* TSLA.swift */; };
 		BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48A2A7AD45000736240 /* UNH.swift */; };
 		BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD48C2A7AD46200736240 /* XOM.swift */; };
-		BDCAD4A02A7BF25E00736240 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +59,6 @@
 		BDCAD4882A7AD43D00736240 /* TSLA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLA.swift; sourceTree = "<group>"; };
 		BDCAD48A2A7AD45000736240 /* UNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNH.swift; sourceTree = "<group>"; };
 		BDCAD48C2A7AD46200736240 /* XOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOM.swift; sourceTree = "<group>"; };
-		BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +140,6 @@
 				BD463EB32A79999A003B3DAF /* Funds.swift */,
 				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
 				BD463EAF2A79979E003B3DAF /* login.swift */,
-				BDCAD49F2A7BF25E00736240 /* UserViewModel.swift */,
 			);
 			path = "main pages";
 			sourceTree = "<group>";
@@ -228,7 +225,6 @@
 				BD463EA22A795FB9003B3DAF /* ContentView.swift in Sources */,
 				BDCAD4832A7AD2E600736240 /* META.swift in Sources */,
 				BD463EB02A79979E003B3DAF /* login.swift in Sources */,
-				BDCAD4A02A7BF25E00736240 /* UserViewModel.swift in Sources */,
 				BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */,
 				BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */,
 				BD463EA02A795FB9003B3DAF /* StockSenseiApp.swift in Sources */,
