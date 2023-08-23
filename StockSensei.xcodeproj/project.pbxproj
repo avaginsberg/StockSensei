@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		899FA5952A931B61003B99D4 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */; };
+		899FA5982A959DAA003B99D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FA5972A959DAA003B99D4 /* Persistence.swift */; };
 		BD192A472A7BE75400948611 /* basicLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A462A7BE75400948611 /* basicLearn.swift */; };
 		BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A482A7BE77100948611 /* typeInvestment.swift */; };
 		BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A4A2A7BE77E00948611 /* ourVision.swift */; };
@@ -36,6 +37,7 @@
 		899FA58F2A931A02003B99D4 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "../../Desktop/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		899FA5962A931DF5003B99D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		899FA5972A959DAA003B99D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BD192A462A7BE75400948611 /* basicLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicLearn.swift; sourceTree = "<group>"; };
 		BD192A482A7BE77100948611 /* typeInvestment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeInvestment.swift; sourceTree = "<group>"; };
 		BD192A4A2A7BE77E00948611 /* ourVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourVision.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */,
 				BD734D032A7C2A4C0047B3AC /* StockSensei.xcdatamodeld */,
+				899FA5972A959DAA003B99D4 /* Persistence.swift */,
 				BDCAD48F2A7AD72D00736240 /* main pages */,
 				BDCAD48E2A7AD6D300736240 /* Stocks */,
 				BD463E9E2A795FB9003B3DAF /* StockSensei */,
@@ -218,6 +221,7 @@
 				BD463EB62A7999E6003B3DAF /* Invest.swift in Sources */,
 				BD192A492A7BE77100948611 /* typeInvestment.swift in Sources */,
 				BD192A4B2A7BE77E00948611 /* ourVision.swift in Sources */,
+				899FA5982A959DAA003B99D4 /* Persistence.swift in Sources */,
 				BDCAD4812A7ACFFB00736240 /* AMZN.swift in Sources */,
 				BD463EB22A79991B003B3DAF /* learn.swift in Sources */,
 				BD734D052A7C2A4C0047B3AC /* StockSensei.xcdatamodeld in Sources */,

@@ -2,11 +2,15 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @State var name: String
+    @FetchRequest(
+        entity: EnterName.entity(), sortDescriptors: [ NSSortDescriptor(keyPath: \EnterName.id, ascending: false) ])
+    
+    var name: FetchedResults<EnterName>
     @State var ownAmzn = 0
     @State var selection: String
     @State var numselection: Double = 100000
     @State var coinAmount = 0.0
+    
     
     var body: some View {
         NavigationView {
@@ -16,9 +20,11 @@ struct ContentView: View {
                 VStack {
                     Text("StockSensei")
                         .font(Font.custom("Rubik-Regular", size:50))
+                        .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                     Image("stocks")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
+                        .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                     HStack {
                         NavigationLink(destination: login(name: $name, selection: $selection, numselection: $numselection)) {
                             Text("Login")
@@ -26,25 +32,29 @@ struct ContentView: View {
                                 .frame(width: 80, height: 80)
                                 .background(Color.blue)
                                 .cornerRadius(10)
+                                .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                         }
                         NavigationLink(destination: learn()) {
                             Text("Learn").foregroundColor(Color.black)
                                 .frame(width: 80, height: 80)
                                 .background(Color.blue)
                                 .cornerRadius(10)
+                                .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                         }
                         NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection, coinAmount: $coinAmount)) {
                             Text("Funds").foregroundColor(Color.black)
                                 .frame(width: 80, height: 80)
                                 .background(Color.blue)
                                 .cornerRadius(10)
+                                .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                         }
                         NavigationLink(destination: Invest(ownAmzn: $ownAmzn, coinAmount:$coinAmount)) {
-                                Text("Invest").foregroundColor(Color.black)
+                            Text("Invest").foregroundColor(Color.black)
                                 .frame(width: 80, height: 80)
                                 .background(Color.blue)
                                 .cornerRadius(10)
-                                                }
+                                .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
+                        }
                     }
                 }
                 .padding()
@@ -54,6 +64,7 @@ struct ContentView: View {
             .navigationBarHidden(false)
         }
     }
+    ContentView().environment(\.managedObjectContext, persistenceController.container.viewContext)
 }
 
 struct ContentView_Previews: PreviewProvider {

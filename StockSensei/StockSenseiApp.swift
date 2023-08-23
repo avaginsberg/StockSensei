@@ -16,6 +16,7 @@ import SwiftUI
 
 @main
 struct StockSenseiApp: App {
+    let persistenceController = PersistenceController.shared
 //    init() {
 //        self.name = $name
 //        self.selection = ""
@@ -24,10 +25,7 @@ struct StockSenseiApp: App {
 //    }
 //
    // @StateObject private var userData = UserData()
-    @State private var name: String = "" // Use @State instead of @Binding
-       @State private var selection: String = ""
-       @State private var numselection: Double = 0.0
-       @State private var coinAmount: Double = 0.0
+
     
     var body: some Scene {
         WindowGroup {
