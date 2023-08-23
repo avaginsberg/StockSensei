@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="EnterName" representedClassName="EnterName" syncable="YES" codeGenerationType="class"/>
+    <entity name="EnterName" representedClassName="EnterName" syncable="YES" codeGenerationType="class">
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="IDK" representedClassName="IDK" syncable="YES" codeGenerationType="class">
-        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="nada" optional="YES" attributeType="String"/>
     </entity>
 </model>
