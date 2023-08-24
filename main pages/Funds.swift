@@ -14,63 +14,94 @@ func calculateCoin(from salary: Double) -> Double {
 }
 
 struct Funds: View {
-    @Binding var name:String
-    @Binding var selection:String
-    @Binding var numselection:Double
-    @Binding var coinAmount:Double
+    @Binding var name: String
+    @Binding var selection: String
+    @Binding var numselection: Double
+    @Binding var coinAmount: Double
+    @State private var calcCoin: Bool = true
+    
     var body: some View {
-        VStack {
-            let formated = String(format: "numselection: %.2f", numselection)
-            Text("Your chosen salary is")
-            Text("\(numselection, specifier: "%.2f") coins")
-
-            Button("Calculate Coin") {
-                if $selection.wrappedValue == "N/A" {
-                    numselection = 100000.0
-                    coinAmount = 15000.0
-                } else if $selection.wrappedValue == "$40,000"{
-                    numselection = 40000.0
-                    coinAmount = 6000.0
-                } else if $selection.wrappedValue == "$60,000"{
-                    numselection = 60000.0
-                    coinAmount = 9000.0
-                } else if $selection.wrappedValue == "$80,000"{
-                    numselection = 80000.0
-                    coinAmount = 12000.0
-                } else if $selection.wrappedValue == "$100,000"{
-                    numselection = 100000.0
-                    coinAmount = 15000.0
-                } else if $selection.wrappedValue == "$120,000+"{
-                    numselection = 120000.0
-                    coinAmount = 18000.0
-                }
-                //if let salary = Double(selection) {
-                //    coinAmount = calculateCoin(from: salary)
-                //}
-            }
-            .padding()
+        ZStack {
+            Color(red: 0.34, green: 0.50, blue: 0.34).ignoresSafeArea() // Set the background color
             
-            HStack {
-                let formatted = String(format: "coinAmount: %.2f", coinAmount)
-                Text("You have")
-                Text("\(coinAmount, specifier: "%.2f") coins to invest")
-                Image("coin") //
+            VStack {
+                let formated = String(format: "numselection: %.2f", numselection)
+                Text("Your chosen salary is")
+                    .font(Font.custom("Rubik-Regular", size:35))
+                    .padding(.top, 50.0)
+                Text ("💰")
+                    .font(Font.system(size: 50))
+                    .padding(.top, 25.0)
+                Text("$\(numselection, specifier: "%.2f")")
+                    .font(Font.system(size: 40))
+                    .padding(.top, 25.0)
+                Text("💰")
+                    .font(Font.system(size: 50))
+                    .padding(.top, 25.0)
                 
-                    .resizable()
-                    .frame(width: 20, height: 20)
+                if calcCoin {
+                    Button(action: {
+                        if $selection.wrappedValue == "N/A" {
+                            numselection = 100000.0
+                            coinAmount = 15000.0
+                            calcCoin = false
+                        } else if $selection.wrappedValue == "$40,000" {
+                            numselection = 40000.0
+                            coinAmount = 6000.0
+                            calcCoin = false
+                        } else if $selection.wrappedValue == "$60,000" {
+                            numselection = 60000.0
+                            coinAmount = 9000.0
+                            calcCoin = false
+                        } else if $selection.wrappedValue == "$80,000" {
+                            numselection = 80000.0
+                            coinAmount = 12000.0
+                            calcCoin = false
+                        } else if $selection.wrappedValue == "$100,000" {
+                            numselection = 100000.0
+                            coinAmount = 15000.0
+                            calcCoin = false
+                        } else if $selection.wrappedValue == "$120,000+" {
+                            numselection = 120000.0
+                            coinAmount = 18000.0
+                            calcCoin = false
+                        }
+                    }) {
+                        ZStack {
+                            Text("Calculate Coin")
+                                .foregroundColor(Color.black) // Text color
+                            
+                                .padding(10) // Padding around the text
+                            
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10) // Rounded corners for the white box
+                                        .fill(Color.white)
+                                        .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2) // Shadow
+                                )
+                        }
+                    }
+                }
+                
+                HStack {
+                    let formatted = String(format: "coinAmount: %.2f", coinAmount)
+                    Text("You have")
+                    Text("\(coinAmount, specifier: "%.2f") coins to invest")
+                    Image("coin")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
+                .padding()
+                
+                Spacer()
             }
-        
             .padding()
-            
-            Spacer()
         }
-        .padding()
     }
 }
 
 // Funds preview
 struct Funds_Previews: PreviewProvider {
     static var previews: some View {
-        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0), coinAmount:.constant(0.0))
+        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0), coinAmount: .constant(0.0))
     }
 }
