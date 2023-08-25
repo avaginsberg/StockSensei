@@ -19,21 +19,28 @@ struct Funds: View {
     @Binding var numselection: Double
     @Binding var coinAmount: Double
     @State private var calcCoin: Bool = true
-    
+    @Binding var ownAmzn: Int
     var body: some View {
         ZStack {
-            Color(red: 0.34, green: 0.50, blue: 0.34).ignoresSafeArea() // Set the background color
+            LinearGradient(
+                gradient: Gradient(colors: [Color(red: 0.08, green: 0.17, blue: 0.21), Color(red: 0.05, green: 0.10, blue: 0.13)]),
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            .ignoresSafeArea()
             
             VStack {
                 let formated = String(format: "numselection: %.2f", numselection)
                 Text("Your chosen salary is")
                     .font(Font.custom("Rubik-Regular", size:35))
+                    .foregroundColor(Color.white)
                     .padding(.top, 50.0)
                 Text ("💰")
                     .font(Font.system(size: 50))
                     .padding(.top, 25.0)
                 Text("$\(numselection, specifier: "%.2f")")
                     .font(Font.system(size: 40))
+                    .foregroundColor(Color.white)
                     .padding(.top, 25.0)
                 Text("💰")
                     .font(Font.system(size: 50))
@@ -85,15 +92,27 @@ struct Funds: View {
                 HStack {
                     let formatted = String(format: "coinAmount: %.2f", coinAmount)
                     Text("You have")
+                        .font(.title2)
+                        .foregroundColor(Color.white)
                     Text("\(coinAmount, specifier: "%.2f") coins to invest")
-                    Image("coin")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
+                        .font(.title2)
+                        .foregroundColor(Color.white)
+                    
+                }//hstack close
                 .padding()
                 
                 Spacer()
-            }
+                Text("Owned stocks:")
+                    .font(.title2)
+                    .foregroundColor(Color.white)
+                if ownAmzn == 1{
+                    Text("\(ownAmzn) share Amazon")
+                }
+                else{
+                    Text("\(ownAmzn) shares Amazon")
+                        .foregroundColor(Color.white)
+                }
+            }//vstack close
             .padding()
         }
     }
@@ -102,6 +121,6 @@ struct Funds: View {
 // Funds preview
 struct Funds_Previews: PreviewProvider {
     static var previews: some View {
-        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0), coinAmount: .constant(0.0))
+        Funds(name: .constant("John Doe"), selection: .constant("N/A"), numselection: .constant(100000.0), coinAmount: .constant(0.0), ownAmzn:.constant(0))
     }
 }

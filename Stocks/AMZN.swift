@@ -31,10 +31,10 @@ struct AMZN: View {
                         coinAmount -= currentStockPrice
                     }
                     if coinAmount >= currentStockPrice{
-                    ownAmzn += 1
+                        ownAmzn += 1
                     }
                     
-
+                    
                 }) {
                     Text("Buy")
                         .font(.headline)
@@ -42,7 +42,7 @@ struct AMZN: View {
                         .padding()
                         .background(Color.green)
                         .cornerRadius(10)
-                                }
+                }
                 Spacer()
                 Button(action: {
                     if ownAmzn >= 1{
@@ -71,6 +71,12 @@ struct AMZN: View {
             timer?.invalidate()
             timer = nil
         }
+        if ownAmzn == 1{
+            Text("You own \(ownAmzn) share of Amazon")
+        }
+        else{
+            Text("You own \(ownAmzn) shares of Amazon")
+        }
     }//vstack close
 
       func startStockPriceSimulation() {
@@ -94,76 +100,3 @@ struct AMZN_Previews: PreviewProvider {
     AMZN(ownAmzn: .constant(0),coinAmount:.constant(0.0), showButton: true)
   }
 }
-///*convert the double "coinAmount to a string" in swiftUI*/
-//
-//
-//
-//
-//
-//
-////
-///
-///FAKE BELOW FAKE FAKE FAKEEE
-///struct AMZN: View {
-////    @State private var currentStockPrice: Double = 1500.00 // Initial stock price
-////    @State private var timer: Timer? = nil
-////
-////
-////
-////
-////
-////    @Binding var ownAmzn: Bool
-////    @Binding var coinAmount:Double
-////    let showButton: Bool
-////    var body: some View {
-////        VStack {
-////            Image("amazon")
-////                .resizable(resizingMode: .stretch)
-////                .aspectRatio(contentMode: .fit)
-////            Text("Amazon Stock")
-////                .font(.title)
-////            .padding()
-////            //Text("ownAmzn: \(ownAmzn.description)")
-////            HStack{
-////                if showButton {
-////                    Button("Buy") {
-////                        ownAmzn = true
-////                     //TO DO: coinAmount -= price of stock
-////                    }
-////                    .padding()
-////                    .background(Color.blue)
-////                    .foregroundColor(.white)
-////                    .cornerRadius(10)
-////                    Button("Sell"){
-////                        if ownAmzn{}
-////                    }
-////                    .padding()
-////                    .background(Color.blue)
-////                    .foregroundColor(.white)
-////                    .cornerRadius(10)
-////
-////                }
-////            }
-////                //if ownAmzn {
-////                //Text("You own AMZN!")
-////
-////            //} else {
-////                //Text("You don't own AMZN.")
-////            //}
-////        }//button close
-////    }
-////
-////}
-////
-////struct AMZN_Previews: PreviewProvider {
-////    static var previews: some View {
-////
-////
-////
-////
-////
-////
-////        AMZN(ownAmzn: .constant(false),coinAmount:.constant(0.0), showButton: true)
-////    }
-////}
-////

@@ -43,7 +43,7 @@ struct ContentView: View {
                                 .cornerRadius(10)
                                 .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                         }
-                        NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection, coinAmount: $coinAmount)) {
+                        NavigationLink(destination: Funds(name: $name, selection: $selection, numselection: $numselection, coinAmount: $coinAmount, ownAmzn:$ownAmzn)) {
                             Text("Funds").foregroundColor(Color.black)
                                 .frame(width: 80, height: 80)
                                 .background(Color.blue)

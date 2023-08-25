@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		89218FF12A985923002EFE30 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89218FF02A985923002EFE30 /* testView.swift */; };
+		89218FF32A985A9D002EFE30 /* userProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89218FF22A985A9D002EFE30 /* userProgress.swift */; };
 		899FA5952A931B61003B99D4 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */; };
 		899FA5982A959DAA003B99D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FA5972A959DAA003B99D4 /* Persistence.swift */; };
 		BD192A472A7BE75400948611 /* basicLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD192A462A7BE75400948611 /* basicLearn.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		89218FF02A985923002EFE30 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		89218FF22A985A9D002EFE30 /* userProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProgress.swift; sourceTree = "<group>"; };
 		899FA58F2A931A02003B99D4 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		899FA5942A931B61003B99D4 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "../../Desktop/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		899FA5962A931DF5003B99D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -134,15 +136,16 @@
 		BDCAD48F2A7AD72D00736240 /* main pages */ = {
 			isa = PBXGroup;
 			children = (
+				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
+				BD463EAF2A79979E003B3DAF /* login.swift */,
+				BD463EB32A79999A003B3DAF /* Funds.swift */,
+				BD463EB52A7999E6003B3DAF /* Invest.swift */,
 				BD463EB12A79991B003B3DAF /* learn.swift */,
 				BD192A482A7BE77100948611 /* typeInvestment.swift */,
 				BD192A4A2A7BE77E00948611 /* ourVision.swift */,
 				BD192A462A7BE75400948611 /* basicLearn.swift */,
-				BD463EB52A7999E6003B3DAF /* Invest.swift */,
-				BD463EB32A79999A003B3DAF /* Funds.swift */,
-				BD463EA12A795FB9003B3DAF /* ContentView.swift */,
 				89218FF02A985923002EFE30 /* testView.swift */,
-				BD463EAF2A79979E003B3DAF /* login.swift */,
+				89218FF22A985A9D002EFE30 /* userProgress.swift */,
 			);
 			path = "main pages";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				BD463EB02A79979E003B3DAF /* login.swift in Sources */,
 				BDCAD4892A7AD43D00736240 /* TSLA.swift in Sources */,
 				BDCAD47D2A7ACF6500736240 /* AAPL.swift in Sources */,
+				89218FF32A985A9D002EFE30 /* userProgress.swift in Sources */,
 				BD463EA02A795FB9003B3DAF /* StockSenseiApp.swift in Sources */,
 				BDCAD48B2A7AD45000736240 /* UNH.swift in Sources */,
 				BDCAD48D2A7AD46200736240 /* XOM.swift in Sources */,
