@@ -20,6 +20,7 @@ struct Funds: View {
     @Binding var coinAmount: Double
     @State private var calcCoin: Bool = true
     @Binding var ownAmzn: Int
+    @State var canCalc: Bool = true
     var body: some View {
         ZStack {
             LinearGradient(
@@ -87,6 +88,9 @@ struct Funds: View {
                                 )
                         }
                     }
+                }// if calccoin close
+                if canCalc == false{
+                    
                 }
                 
                 HStack {
@@ -112,6 +116,37 @@ struct Funds: View {
                     Text("\(ownAmzn) shares Amazon")
                         .foregroundColor(Color.white)
                 }
+//                HStack{
+//                    Spacer()
+//
+//                    ToolbarButton(title: "Home") {
+//                        // Handle Home button tap
+//                    }
+//
+//                    Spacer()
+//
+//                    ToolbarButton(title: "Login") {
+//                        // Handle Login button tap
+//                    }
+//
+//                    Spacer()
+//
+//                    ToolbarButton(title: "Funds") {
+//                        // Handle Funds button tap
+//                    }
+//
+//                    Spacer()
+//
+//                    ToolbarButton(title: "Invest") {
+//                        // Handle Invest button tap
+//                    }
+//
+//                    Spacer()
+//                }//toolbar hstack close
+                
+               // .frame(height: 44)
+                //.background(Color.white)
+        
             }//vstack close
             .padding()
         }

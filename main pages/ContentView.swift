@@ -61,7 +61,7 @@ struct ContentView: View {
                 }
                 .padding()
             }
-            .navigationTitle("🏠")
+            .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarHidden(false)
         }

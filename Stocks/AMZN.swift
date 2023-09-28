@@ -15,16 +15,20 @@ struct AMZN: View {
 
     var body: some View {
         VStack {
-            Text(String(format: "%.2f", $coinAmount.wrappedValue))
+            Text(String(format: "Your current balance is %.2f", $coinAmount.wrappedValue))
             Text("Amazon Stock Price")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding(.top, 20)
             Spacer()
-            Text(String(format: "$%.2f", currentStockPrice))
+            Text(String(format: "The stock is worth $%.2f", currentStockPrice))
                 .font(.system(size: 40, weight: .bold, design: .default))
                 .foregroundColor(.blue)
                 .padding(.vertical, 20)
+            Image("amazon")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            
             HStack {
                 Button(action: {
                     if coinAmount >= currentStockPrice {

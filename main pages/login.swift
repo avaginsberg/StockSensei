@@ -62,33 +62,6 @@ struct login: View {
                     saveNameToCoreData()
                 }
                 Spacer()
-                HStack {
-                    Spacer()
-                    
-                    ToolbarButton(title: "Home") {
-                        // Handle Home button tap
-                    }
-                    
-                    Spacer()
-                    
-                    ToolbarButton(title: "Login") {
-                        // Handle Login button tap
-                    }
-                    
-                    Spacer()
-                    
-                    ToolbarButton(title: "Funds") {
-                        // Handle Funds button tap
-                    }
-                    
-                    Spacer()
-                    
-                    ToolbarButton(title: "Invest") {
-                        // Handle Invest button tap
-                    }
-                    
-                    Spacer()
-                }
                 .frame(height: 44)
                 .background(Color.white)
             }//vstack closing
